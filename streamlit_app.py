@@ -1,9 +1,9 @@
 import streamlit as st
 import snowflake.connector
 
-##st.title('My Parents Diner')
+st.title('My Parents Diner')
 
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"]) 
+my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 
 my_cur = my_cnx.cursor() 
 
