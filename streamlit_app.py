@@ -1,7 +1,7 @@
 import streamlit as st
 import snowflake.connector
 
-st.title('My Parents Diner')
+##st.title('My Parents Diner')
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"]) 
 
